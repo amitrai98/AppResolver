@@ -274,7 +274,6 @@ public class AppResolver {
     public static void openYouTube(Activity context , String webSiteUrl) {
 
         try {
-
             Intent intent = null;
             if(YouTubeIntents.isYouTubeInstalled(context)){
                 String name = null;
